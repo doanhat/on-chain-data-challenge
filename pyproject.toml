@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "on-chain-data-challenge"
+version = "0.1.0"
+description = ""
+authors = ["Nhat-Minh DOAN"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+web3 = "^5.29.0"
+python-dotenv = "^0.20.0"
+coloredlogs = "^15.0.1"
+pymongo = "^4.1.1"
+dnspython = "^2.2.1"
+
+[tool.poetry.dev-dependencies]
+web3 = {extras = ["tester"], version = "^5.29.0"}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
